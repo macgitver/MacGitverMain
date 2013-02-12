@@ -23,6 +23,7 @@
 			<Disable Match="*"/>
 			<Enable  Match="History"/>
             <Enable  Match="WorkTree"/>
+            <Enable Match="Index"/>
             <Enable  Match="RepoTree"/>
 		</Views>
 
@@ -33,6 +34,7 @@
                 </Tab>
                 <Tab Caption="Top" Stretch="3">
                     <View Name="History"/>
+                    <View Name="Index"/>
                     <View Name="WorkTree"/>
                 </Tab>
             </Split>
